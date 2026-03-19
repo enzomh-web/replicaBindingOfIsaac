@@ -10,8 +10,8 @@ public class playerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     float horizontalMovement;
     float verticalMovement;
-    bool isMoving = false; 
-    float acceleration = 0.4f;
+    bool isMoving; 
+    public float friction = 0.8f;
 
 
     void Start()
@@ -21,17 +21,13 @@ public class playerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (verticalMovement == 0 && horizontalMovement == 0)
+        if (isMoving == true)
         {
-            isMoving = false;
+            rb.linearVelocity = new Vector2(horizontalMovement * moveSpeed, verticalMovement * moveSpeed);
         }
-
-        rb.linearVelocity = new Vector2(horizontalMovement * moveSpeed, verticalMovement * moveSpeed);
-        
-        if (isMoving = false)
-        { 
-            Debug.Log("parado");
-            rb.linearVelocity = rb.linearVelocity * acceleration;
+        else if (isMoving == false)
+        { ;
+            rb.linearVelocity = rb.linearVelocity * friction;
         }
     }
 
@@ -39,6 +35,15 @@ public class playerMovement : MonoBehaviour
     {
         horizontalMovement = value.Get<Vector2>().x;
         verticalMovement = value.Get<Vector2>().y;
+
+        if (Mathf.Abs(horizontalMovement) < 0.01f && Mathf.Abs(verticalMovement) < 0.01f)
+        {
+            isMoving = false;
+        }
+        else
+        {
+            isMoving = true;
+        }
     }
 
 }
