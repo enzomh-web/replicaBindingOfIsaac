@@ -8,8 +8,8 @@ public class playerMovement : MonoBehaviour
     
     [Header("Movimentação")]
     public float moveSpeed = 5f;
-    float horizontalMovement;
-    float verticalMovement;
+    public float horizontalMovement;
+    public float verticalMovement;
     bool isMoving; 
     public float friction = 0.8f;
 
@@ -26,7 +26,7 @@ public class playerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(horizontalMovement * moveSpeed, verticalMovement * moveSpeed);
         }
         else if (isMoving == false)
-        { ;
+        {
             rb.linearVelocity = rb.linearVelocity * friction;
         }
     }
