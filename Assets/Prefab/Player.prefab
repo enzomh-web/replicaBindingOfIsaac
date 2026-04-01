@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 5400324870024438669}
-  fireSpawn: {fileID: 0}
+  fireSpawn: {fileID: 5143491458171570016}
   moveSpeed: 5
   friction: 0.8
   firePrefab: {fileID: 2319282281060861406, guid: 3f501a1624585b3bda493b559c168ee6, type: 3}
