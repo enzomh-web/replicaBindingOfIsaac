@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class BossMovement : MonoBehaviour
 {
+    public Transform player;
+
     [Header("Segments")]
     public List<Transform> segments = new List<Transform>();
     
@@ -10,7 +12,7 @@ public class BossMovement : MonoBehaviour
     public float distancebetween = 0.5f;
 
     [Header("Velocity")]
-    public float movespeed = 5f
+    public float movespeed = 5f;
 
     private List<Vector3> positionhistory = new List<Vector3>();
 
@@ -28,9 +30,11 @@ public class BossMovement : MonoBehaviour
 
     void MoveHead()
     {
-        transform.position += Vector3.right * movespeed * Time.deltatime;
+    Vector3 dir = (player.position - transform.position).normalized;
 
-        positionhistory.Insert(0,transform.position);
+    transform.position += dir * movespeed * Time.deltaTime;
+
+    positionhistory.Insert(0, transform.position);
     }
     void MoveSegments()
     {
@@ -44,7 +48,7 @@ public class BossMovement : MonoBehaviour
 
                 Transform segment = segments[i];
 
-                segment.position = Vector3.Lerp(segment.position,point,Time.deltatime * 15f);
+                segment.position = Vector3.Lerp(segment.position,point,Time.deltaTime * 15f);
 
                 Vector3 direction = point - segment.position;
 
