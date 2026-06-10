@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 66562f18309b70947a9a95b14e79628b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4231404172787645904
+    second: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_0"
+  - first:
+      213: -5136670123867621054
+    second: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_1"
+  - first:
+      213: 4396532177735003824
+    second: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_2"
+  - first:
+      213: 6618044294618679485
+    second: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_3"
+  - first:
+      213: -1501286304877195069
+    second: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_4"
+  - first:
+      213: 2126865947043847343
+    second: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_5"
+  - first:
+      213: -3085666709664080983
+    second: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_6"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 11
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ddfc1c1da7f8ba30800000000000000
+      internalID: 4231404172787645904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 11
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2493282dcb1e6b8b0800000000000000
+      internalID: -5136670123867621054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 11
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be2879c8be930d30800000000000000
+      internalID: 4396532177735003824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_3"
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 11
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db80c88d83408db50800000000000000
+      internalID: 6618044294618679485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_4"
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 11
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0d2a35f0c5a2be0800000000000000
+      internalID: -1501286304877195069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_5"
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 11
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac5c6a6f45248d10800000000000000
+      internalID: 2126865947043847343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_6"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 11
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab5933e9728d25d0800000000000000
+      internalID: -3085666709664080983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_0": 4231404172787645904
+      "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_1": -5136670123867621054
+      "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_2": 4396532177735003824
+      "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_3": 6618044294618679485
+      "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_4": -1501286304877195069
+      "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_5": 2126865947043847343
+      "Cabe\xE7a SpriteSheet (SPRITE ORIGINAL) (1)_6": -3085666709664080983
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
